@@ -1,0 +1,167 @@
+.card {
+    display: grid;
+    width: 200px;
+    height: 400px;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #ffffff, #f5f5f5);
+    border: 1px solid black;
+    border-radius: 6px;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 4fr repeat(6, 1fr);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 500ms ease;
+    grid-template-areas:
+        "a a"
+        "b b"
+        "c c"
+        "d d"
+        "e e"
+        "v v"
+        "f g";
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card .div-img {
+    grid-area: a;
+}
+
+.card .name {
+    grid-area: b;
+}
+
+.card .type {
+    grid-area: c;
+}
+
+.card .bread {
+    grid-area: d;
+}
+
+.card .age {
+    grid-area: e;
+}
+
+.card .adopted-cards {
+    grid-area: f;
+    margin: 10px;
+}
+
+.card .donated-sum {
+    grid-area: g;
+    margin: 10px;
+}
+
+.card .needed-amount {
+    grid-area: v;
+}
+
+.card {
+    /* Existing styles */
+    position: relative;
+  }
+  
+  .card button {
+    background-color: #00CED1;;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: black;
+  }
+  
+  .card .name {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .card .type {
+    margin-top: 5px;
+  }
+  
+  .card .bread {
+    margin-top: 5px;
+  }
+  
+  .card .age {
+    margin-top: 5px;
+  }
+  
+  .card .needed-amount {
+    margin-top: 5px;
+  }
+  
+  .card .adopted-cards {
+    grid-area: f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card .donated-sum {
+    grid-area: g;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+
+  .card {
+    /* Existing styles */
+    padding: 10px;
+  }
+  
+  .card .div-img {
+    /* Existing styles */
+    padding-bottom: 10px;
+  }
+  
+  .card .name,
+  .card .type,
+  .card .bread,
+  .card .age,
+  .card .needed-amount {
+    /* Existing styles */
+    padding-bottom: 5px;
+  }
+  
+  .card .adopted-cards {
+    /* Existing styles */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .card .donated-sum {
+    /* Existing styles */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .card .div-img {
+    /* Existing styles */
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    overflow: hidden;
+  }
+  
+  .card .div-img .img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+  }
+  

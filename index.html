@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resetcss/reset.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <img width="80" src="./images/logo.png">
+        <div id="links">
+            <a href="#home">home</a>
+            <a href="#adopted">adopted</a>
+            <a href="#donates">donate</a>
+        </div>
+        <nav style="display: flex;">
+            <a href="#login" class="login">Login</a>
+            <a href="#register" class="register">Register</a>
+            <a href= "#login" class="logout hidden" >Logout</a>
+        </nav>
+    </header>
+    <main>
+        <div class="page" id="home">
+            <input type="text" id="search-input" placeholder="Search by name">
+            <select id="animal-type-select" name="animals-type">
+
+            </select>
+            <div id="container">
+
+            </div>
+        </div>
+
+        <div class="page" id="adopted">
+
+
+        </div>
+        <div class="page" id="donates">
+            <div id="heading"></div>
+            <form id="donation-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="sum">Amount:</label>
+                    <input type="number" id="sum" min="1" placeholder="Enter donation amount">
+                </div>
+                <div class="form-group">
+                    <button id="btn-create" type="submit">Donate</button>
+                </div>
+            </form>
+            <div id="historyTable">
+                <table id="history-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Animal name</th>
+                            <th>Donated sum</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="page" id="login">
+            <form id="loginForm">
+                <h2 id="heading">Login</h2>
+                <input id="name" name="username" type="text" placeholder="username">
+                <input id="loginPass" name="pass" type="password" placeholder="pass">
+                <input id="buttonCreate" type="submit" value="Login">
+            </form>
+        </div>
+
+        <div class="page" id="register">
+            <form id="registerForm">
+                <h2 id="heading">Register</h2>
+                <input id="registerName" name="username" type="text" placeholder="username">
+                <input id="registerPass" name="pass" type="password" placeholder="pass">
+                <input id="registerConfirm" type="password" placeholder="confirm pass">
+                <input id="registerSumbit" type="submit" value="Register">
+            </form>
+        </div>
+
+    </main>
+    <footer id="footer"></footer>
+    <script src="data.js"></script>
+    <script src="manager.js"></script>
+    <script src="UserManager.js"></script>
+    <script src="controler.js"></script>
+</body>
+
+</html>

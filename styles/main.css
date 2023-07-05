@@ -1,0 +1,215 @@
+main .page {
+    min-height: 80vh;
+    padding: 20px;
+}
+
+#home {
+    background-color: #808080; /* Dark Gray */
+    
+}
+
+#adopted {
+    background-color: #00545C; /* Dark Teal */
+}
+
+#donates {
+    background-color: #008080; /* Teal */
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for the donates form */
+#donates form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#donates form input {
+    margin-top: 20px;
+    height: 20px;
+    width: 300px;
+}
+
+#donation-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#donates form input[type="text"],
+#donates form input[type="number"] {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#history-table {
+    margin: 0 auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  #history-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  #history-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+/*   
+  /* #history-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } */
+  
+  #history-table tbody tr {
+    background-color: white;
+  }
+   
+
+button {
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    background-color: #337ab7;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #23527c;
+}
+
+.page #heading {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.page #container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#login {
+    background-color: #00CED1; /* Dark Turquoise */
+}
+
+#register {
+    background-color: #483D8B; /* Dark Slate Blue */
+}
+
+#registerForm,
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+/* Styles for login form */
+#name,
+#loginPass,
+#buttonCreate {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 16px;
+    background-color: #F0F8FF; /* Alice Blue */
+    color: #000000; /* Black */
+}
+
+#buttonCreate {
+    background-color: #006400; /* Dark Green */
+    color: #FFFFFF; /* White */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buttonCreate:hover {
+    background-color: #008000; /* Green */
+}
+
+/* Styles for register form */
+#registerName,
+#registerPass,
+#registerConfirm,
+#registerSumbit {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 16px;
+    background-color: #F0F8FF; /* Alice Blue */
+    color: #000000; /* Black */
+}
+
+#registerSumbit {
+    background-color: #006400; /* Dark Green */
+    color: #FFFFFF; /* White */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#registerSumbit:hover {
+    background-color: #008000; /* Green */
+}
+
+/* Styles for Sign In and Sign Up headings */
+#login h2,
+#register h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #FFFFFF; /* White */
+    text-align: center;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  #animal-type-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  

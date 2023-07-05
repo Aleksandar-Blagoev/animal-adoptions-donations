@@ -1,0 +1,64 @@
+header {
+    height: 70px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header #links a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 2;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+header #links a:hover {
+    background-color: black;
+}
+
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 2;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+
+/* nav a.logout {
+    display: flex;
+  }
+  
+nav a.logout.hidden {
+    display: none;
+  }
+
+nav a.login {
+    display: flex;
+}
+  
+nav a.register {
+    display: flex;
+}
+  
+
+nav a.login.hidden {
+    display: none;
+}
+  
+nav a.register.hidden {
+    display: none;
+} */
