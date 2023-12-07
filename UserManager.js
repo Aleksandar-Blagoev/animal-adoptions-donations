@@ -25,9 +25,9 @@ class UserManager {
   login = ({ username, pass }) => {
     let foundUser = this.users.find(
       (user) =>
-        user.username === username.toLowerCase() && user.pass === pass
+        user.username.toLowerCase() === username.toLowerCase() && user.pass === pass
     );
-
+      console.log(this.users);
     if (foundUser) {
       this.loggedUser = foundUser;
       localStorage.setItem("isThereUser", JSON.stringify(this.loggedUser));
